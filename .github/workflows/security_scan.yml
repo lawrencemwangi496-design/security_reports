@@ -53,6 +53,10 @@ jobs:
       - name: move the files
         run: |
           today=$(date +"%Y-%m-%d")
+          remote_dir="/opt/openclaw/workspace/security_reports/$today"
+          ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no \
+            "${{ secrets.VPS_USER }}@${{ secrets.SERVER_IP }}" \
+             "mkdir -p \"$remote_dir\""
           scp -r -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no \
           external_scans \
-          ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}://opt/openclaw/workspace/security_reports/$today
+          ${{ secrets.VPS_USER }}@${{ secrets.SERVER_IP }}:/opt/openclaw/workspace/security_reports/$today
