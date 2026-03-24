@@ -85,4 +85,4 @@ jobs:
         run: |
           ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no \
             "${{ secrets.VPS_USER }}@${{ secrets.SERVER_IP }}" \
-            "DISCORD_WEBHOOK_URL='$DISCORD_WEBHOOK_URL' sudo /opt/script/security/security.sh"
+            "DISCORD_WEBHOOK_URL='$DISCORD_WEBHOOK_URL' sudo -E /opt/script/security/security.sh"
