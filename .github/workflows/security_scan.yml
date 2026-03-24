@@ -43,8 +43,7 @@ jobs:
         run: |
           sudo apt update && sudo apt-get install whatweb -y
           target_url="http://${{ secrets.SERVER_IP }}:80"
-          whatweb --log-brief=scan_results/whatweb_scan.txt $target_url "target_url"
-
+          whatweb --log-brief=scan_results/whatweb_scan.txt $target_url "$target_url"
       - name: upload scan results
         uses: actions/upload-artifact@v4
         with:
