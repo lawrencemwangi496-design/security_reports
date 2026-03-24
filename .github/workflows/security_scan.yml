@@ -39,6 +39,7 @@ jobs:
           list: ${{ secrets.SERVER_IP }}
           flags: '-tech-detect -status-code -title -web-server'
           output: external_scans/httpx_scan.txt
+          continuous: true
       - name: whatweb scan
         run: |
           sudo apt update && sudo apt-get install whatweb -y
