@@ -28,9 +28,8 @@ jobs:
       - run: mkdir -p scan_results
       - run: |
           nmap -p- -sV -T4 ${{ secrets.SERVER_IP }} -oN scan_results/nmap_scan.txt
-      - name: upload scan_results
-        uses: actions/upload-artifact@v4
+      - name: nuclei scan
+        uses: projectdiscovery/nuclei-action@main
         with:
-          name: scan_report folder
-          path: scan_results
-          retention-days: 5
+          target: ${{ secrets.SERVER_IP }}
+          output: scan_results/nuclei_scan.txt
