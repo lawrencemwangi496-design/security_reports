@@ -33,10 +33,13 @@ jobs:
         with:
           target: ${{ secrets.SERVER_IP }}
           output: external_scans/nuclei_scan.txt
+      - name: setting up httpx
+        run: |
+          echo "@{{ secrets.SERVER_IP }}" > target.txt
       - name: run httpx
         uses: projectdiscovery/httpx-action@main
         with:
-          list: ${{ secrets.SERVER_IP }}
+          list: target.txt
           flags: '-tech-detect -status-code -title -web-server'
           output: external_scans/httpx_scan.txt
         continue-on-error: true
