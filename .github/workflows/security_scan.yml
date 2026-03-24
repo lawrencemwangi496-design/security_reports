@@ -29,7 +29,7 @@ jobs:
       - run: |
           nmap -p- -sV -T4 ${{ secrets.SERVER_IP }} -oN scan_results/nmap_scan.txt
       - name: nuclei scan
-        uses: projectdiscovery/nuclei-action@main
+        uses: projectdiscovery/nuclei-action@v3
         with:
           target: ${{ secrets.SERVER_IP }}
           output: scan_results/nuclei_scan.txt
