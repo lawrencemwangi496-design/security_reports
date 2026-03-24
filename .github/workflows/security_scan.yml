@@ -25,28 +25,34 @@ jobs:
     steps:
       - name: nmap scan
         run: sudo apt-get update && sudo apt-get install nmap -y
-      - run: mkdir -p scan_results
+      - run: mkdir -p external_scans
       - run: |
-          nmap -p- -sV -T4 ${{ secrets.SERVER_IP }} -oN scan_results/nmap_scan.txt
+          nmap -p- -sV -T4 ${{ secrets.SERVER_IP }} -oN external_scans/nmap_scan.txt
       - name: nuclei scan
         uses: projectdiscovery/nuclei-action@v3
         with:
           target: ${{ secrets.SERVER_IP }}
-          output: scan_results/nuclei_scan.txt
+          output: external_scans/nuclei_scan.txt
       - name: run httpx
         uses: projectdiscovery/httpx-action@main
         with:
-          target: ${{ secrets.SERVER_IP }}
+          list: ${{ secrets.SERVER_IP }}
           flags: '-tech-detect -status-code -title -web-server'
-          output: scan_results/httpx_scan.txt
+          output: external_scans/httpx_scan.txt
       - name: whatweb scan
         run: |
           sudo apt update && sudo apt-get install whatweb -y
           target_url="http://${{ secrets.SERVER_IP }}:80"
-          whatweb --log-brief=scan_results/whatweb_scan.txt $target_url "$target_url"
-      - name: upload scan results
-        uses: actions/upload-artifact@v4
-        with:
-          name: external_scan_results
-          path: scan_results
-          retention-days: 5
+          whatweb --log-brief=external_scans/whatweb_scan.txt $target_url "$target_url"
+      - name: setting up ssh
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
+      - name: move the files
+        run: |
+          today=$(date +"%Y-%m-%d")
+          scp -r -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no \
+          external_scans \
+          ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}://opt/openclaw/workspace/security_reports/$today
