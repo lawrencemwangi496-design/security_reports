@@ -39,6 +39,12 @@ jobs:
           target: ${{ secrets.SERVER_IP }}
           flags: '-tech-detect -status-code -title -web-server'
           output: scan_results/httpx_scan.txt
+      - name: whatweb scan
+        run: |
+          sudo apt update && sudo apt-get install whatweb -y
+          target_url="http://${{ secrets.SERVER_IP }}:80"
+          whatweb --log-brief=scan_results/whatweb_scan.txt $target_url "target_url"
+
       - name: upload scan results
         uses: actions/upload-artifact@v4
         with:
