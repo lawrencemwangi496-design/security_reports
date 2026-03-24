@@ -40,7 +40,7 @@ jobs:
           flags: '-tech-detect -status-code -title -web-server'
           output: scan_results/httpx_scan.txt
       - name: upload scan results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: external_scan_results
           path: scan_results
