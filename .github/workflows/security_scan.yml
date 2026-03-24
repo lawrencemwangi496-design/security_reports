@@ -64,3 +64,25 @@ jobs:
           scp -r -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no \
           external_scans \
           ${{ secrets.VPS_USER }}@${{ secrets.SERVER_IP }}:$remote_dir
+
+  internal_scan:
+    runs-on: ubuntu-latest
+    needs: external_scan
+    if: >
+     github.event_name == 'schedule' ||
+     github.event.inputs.scan_type == 'internal scan' ||
+      github.event.inputs.scan_type == 'full_scan'
+    steps:
+      - name: setting up ssh
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
+      - name: run the security script
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no \
+            "${{ secrets.VPS_USER }}@${{ secrets.SERVER_IP }}" \
+            "DISCORD_WEBHOOK_URL='$DISCORD_WEBHOOK_URL' sudo /opt/scripts/security/security.sh"
