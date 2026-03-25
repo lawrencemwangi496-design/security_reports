@@ -69,7 +69,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: external_scan
     if: >
-     if always() &&
+     always() &&
      (needs.external_scan.result == 'success'||
      (needs.external_scan.result == 'skipped' ) &&
       ( github.event_name == 'schedule' ||
