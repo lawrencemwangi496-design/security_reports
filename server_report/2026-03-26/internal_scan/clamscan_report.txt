@@ -1,0 +1,13 @@
+/var/www/html/index.nginx-debian.html: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 3627731
+Engine version: 1.4.3
+Scanned directories: 39
+Scanned files: 1
+Infected files: 0
+Data scanned: 0.00 MB
+Data read: 0.00 MB (ratio 0.00:1)
+Time: 21.022 sec (0 m 21 s)
+Start Date: 2026:03:26 08:14:08
+End Date:   2026:03:26 08:14:29
