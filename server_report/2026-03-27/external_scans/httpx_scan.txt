@@ -1,0 +1,1 @@
+http://38.242.140.239 [200] [Devsecorpion_Gitea] [nginx/1.24.0 (Ubuntu)] [Gitea,Go,Nginx:1.24.0,Ubuntu]

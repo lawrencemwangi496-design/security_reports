@@ -1,0 +1,79 @@
+/tmp/jfs_cache/e5606540-8050-48e2-837f-2280dab68d2d/raw/chunks/0/4/4097_0_129: OK
+/tmp/jfs_cache/e5606540-8050-48e2-837f-2280dab68d2d/raw/chunks/0/4/4100_0_129: OK
+/tmp/jfs_cache/e5606540-8050-48e2-837f-2280dab68d2d/raw/chunks/0/4/4099_0_129: OK
+/tmp/jfs_cache/e5606540-8050-48e2-837f-2280dab68d2d/raw/chunks/0/4/4098_0_129: OK
+/tmp/jfs_cache/e5606540-8050-48e2-837f-2280dab68d2d/.lock: OK
+/tmp/test.mkv/JUJUTSU KAISEN S03E01 Execution 1080p CR WEB-DL DUAL AAC2.0 H 264-VARYG (Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen, Dual-Audio, Multi-Subs).mkv: OK
+/tmp/qbit-cookies.txt: OK
+/tmp/state1424899.json.bak: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 1/Jigokuraku - S01E08 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 1/Jigokuraku - S01E01 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 1/Jigokuraku - S01E07 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 1/Jigokuraku - S01E03 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 1/Jigokuraku - S01E04 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 1/Jigokuraku - S01E02 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 1/Jigokuraku - S01E10 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 1/Jigokuraku - S01E09 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 1/Jigokuraku - S01E06 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 1/Jigokuraku - S01E13 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 1/Jigokuraku - S01E05 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 1/Jigokuraku - S01E11 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 1/Jigokuraku - S01E12 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 2/[Vodes] Jigokuraku - S02E08 (WEB 1080p HEVC AAC)  Hell's Paradise S2.mkv: OK
+/tmp/s3_cache/contabolawrence/anime/Hell's Paradise/Season 2/[Vodes] Jigokuraku - S02E09 (WEB 1080p HEVC AAC)  Hell's Paradise S2.mkv: OK
+/tmp/s3_cache/contabolawrence/anime/JUJUTSU KAISEN/Season 3/[Subeteka] Jujutsu Kaisen - S03E06 [1080p WEB DUAL DDP2.0 H.265] [766DE808]  Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen.mkv: OK
+/tmp/s3_cache/contabolawrence/anime/JUJUTSU KAISEN/Season 3/JUJUTSU KAISEN S03E02 One More Time 1080p CR WEB-DL DUAL AAC2.0 H 264-VARYG (Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen, Dual-Audio, Multi-Subs).mkv: OK
+/tmp/s3_cache/contabolawrence/anime/JUJUTSU KAISEN/Season 3/[ToonsHub] JUJUTSU KAISEN S03E09 1080p CR WEB-DL DUAL AAC2.0 H.264 (Dual-Audio, Multi-Subs).mkv: OK
+/tmp/s3_cache/contabolawrence/anime/JUJUTSU KAISEN/Season 3/JUJUTSU KAISEN S03E08 Tokyo Colony No 1-Part 2 1080p CR WEB-DL DUAL AAC2.0 H 264-VARYG (Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen, Dual-Audio, Multi-Subs).mkv: OK
+/tmp/s3_cache/contabolawrence/anime/JUJUTSU KAISEN/Season 3/[ToonsHub] Jujutsu Kaisen S03E11 1080p NF WEB-DL AAC2.0 H.264 (Multi-Subs).mkv: OK
+/tmp/s3_cache/contabolawrence/anime/JUJUTSU KAISEN/Season 3/[Subeteka] Jujutsu Kaisen - S03E03 [1080p WEB DUAL DDP2.0 H.265] [67067855]  Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen.mkv: OK
+/tmp/s3_cache/contabolawrence/anime/JUJUTSU KAISEN/Season 3/[Subeteka] Jujutsu Kaisen - S03E07 [1080p WEB DUAL DDP2.0 H.265] [88BDDF0F]  Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen.mkv: OK
+/tmp/s3_cache/contabolawrence/anime/JUJUTSU KAISEN/Season 3/JUJUTSU KAISEN S03E05 Passion 1080p CR WEB-DL DUAL AAC2.0 H 264-VARYG (Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen, Dual-Audio, Multi-Subs).mkv: OK
+/tmp/s3_cache/contabolawrence/anime/JUJUTSU KAISEN/Season 3/JUJUTSU KAISEN S03E01 Execution 1080p CR WEB-DL DUAL AAC2.0 H 264-VARYG (Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen, Dual-Audio, Multi-Subs).mkv: OK
+/tmp/s3_cache/contabolawrence/anime/JUJUTSU KAISEN/Season 3/[Subeteka] Jujutsu Kaisen - S03E04 [1080p WEB DUAL DDP2.0 H.265] [0A4C185B]  Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen.mkv: OK
+/tmp/s3_cache/contabolawrence/anime/JUJUTSU KAISEN/Season 3/JUJUTSU KAISEN S03E10 Tokyo Colony No 1-Part 4 1080p CR WEB-DL DUAL AAC2.0 H 264-VARYG (Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen, Dual-Audio, Multi-Subs).mkv: OK
+/tmp/s3_cache/contabolawrence/anime/JUJUTSU KAISEN/Season 3/[ToonsHub] Jujutsu Kaisen S03E12 1080p NF WEB-DL AAC2.0 H.264 (Multi-Subs).mkv: OK
+/tmp/s3_cache/contabolawrence/anime/JUJUTSU KAISEN - Hidden Inventory + Premature Death - The Movie (2025)/Jujutsu Kaisen Hidden Inventory Premature Death - The Movie (2025) [1080p] [WEBRip] [YTS.LT].mp4: OK
+/tmp/s3_cache/contabolawrence/anime/Jujutsu Kaisen 0 (2021)/[Vodes] Jujutsu Kaisen 0 (2021) [v3] [BD 1080p HEVC Dual-Audio].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 1/Jigokuraku - S01E08 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 1/Jigokuraku - S01E01 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 1/Jigokuraku - S01E07 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 1/Jigokuraku - S01E03 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 1/Jigokuraku - S01E04 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 1/Jigokuraku - S01E02 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 1/Jigokuraku - S01E10 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 1/Jigokuraku - S01E09 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 1/Jigokuraku - S01E06 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 1/Jigokuraku - S01E13 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 1/Jigokuraku - S01E05 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 1/Jigokuraku - S01E11 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 1/Jigokuraku - S01E12 v2 (BD 1080p HEVC) [Vodes].mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 2/[Vodes] Jigokuraku - S02E08 (WEB 1080p HEVC AAC)  Hell's Paradise S2.mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Hell's Paradise/Season 2/[Vodes] Jigokuraku - S02E09 (WEB 1080p HEVC AAC)  Hell's Paradise S2.mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/JUJUTSU KAISEN/Season 3/[Subeteka] Jujutsu Kaisen - S03E06 [1080p WEB DUAL DDP2.0 H.265] [766DE808]  Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen.mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/JUJUTSU KAISEN/Season 3/JUJUTSU KAISEN S03E02 One More Time 1080p CR WEB-DL DUAL AAC2.0 H 264-VARYG (Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen, Dual-Audio, Multi-Subs).mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/JUJUTSU KAISEN/Season 3/[ToonsHub] JUJUTSU KAISEN S03E09 1080p CR WEB-DL DUAL AAC2.0 H.264 (Dual-Audio, Multi-Subs).mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/JUJUTSU KAISEN/Season 3/JUJUTSU KAISEN S03E08 Tokyo Colony No 1-Part 2 1080p CR WEB-DL DUAL AAC2.0 H 264-VARYG (Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen, Dual-Audio, Multi-Subs).mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/JUJUTSU KAISEN/Season 3/[ToonsHub] Jujutsu Kaisen S03E11 1080p NF WEB-DL AAC2.0 H.264 (Multi-Subs).mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/JUJUTSU KAISEN/Season 3/[Subeteka] Jujutsu Kaisen - S03E03 [1080p WEB DUAL DDP2.0 H.265] [67067855]  Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen.mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/JUJUTSU KAISEN/Season 3/[Subeteka] Jujutsu Kaisen - S03E07 [1080p WEB DUAL DDP2.0 H.265] [88BDDF0F]  Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen.mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/JUJUTSU KAISEN/Season 3/JUJUTSU KAISEN S03E05 Passion 1080p CR WEB-DL DUAL AAC2.0 H 264-VARYG (Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen, Dual-Audio, Multi-Subs).mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/JUJUTSU KAISEN/Season 3/JUJUTSU KAISEN S03E01 Execution 1080p CR WEB-DL DUAL AAC2.0 H 264-VARYG (Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen, Dual-Audio, Multi-Subs).mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/JUJUTSU KAISEN/Season 3/[Subeteka] Jujutsu Kaisen - S03E04 [1080p WEB DUAL DDP2.0 H.265] [0A4C185B]  Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen.mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/JUJUTSU KAISEN/Season 3/JUJUTSU KAISEN S03E10 Tokyo Colony No 1-Part 4 1080p CR WEB-DL DUAL AAC2.0 H 264-VARYG (Jujutsu Kaisen - Shimetsu Kaiyuu - Zenpen, Dual-Audio, Multi-Subs).mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/JUJUTSU KAISEN/Season 3/[ToonsHub] Jujutsu Kaisen S03E12 1080p NF WEB-DL AAC2.0 H.264 (Multi-Subs).mkv: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/JUJUTSU KAISEN - Hidden Inventory + Premature Death - The Movie (2025)/Jujutsu Kaisen Hidden Inventory Premature Death - The Movie (2025) [1080p] [WEBRip] [YTS.LT].mp4: OK
+/tmp/s3_cache/.contabolawrence.stat/anime/Jujutsu Kaisen 0 (2021)/[Vodes] Jujutsu Kaisen 0 (2021) [v3] [BD 1080p HEVC Dual-Audio].mkv: OK
+/var/www/html/index.nginx-debian.html: OK
+
+----------- SCAN SUMMARY -----------
+Known viruses: 3627742
+Engine version: 1.4.3
+Scanned directories: 55
+Scanned files: 67
+Infected files: 0
+Data scanned: 0.00 MB
+Data read: 72470.61 MB (ratio 0.00:1)
+Time: 18.725 sec (0 m 18 s)
+Start Date: 2026:03:30 09:56:21
+End Date:   2026:03:30 09:56:40
