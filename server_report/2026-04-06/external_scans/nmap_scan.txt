@@ -1,0 +1,188 @@
+# Nmap 7.94SVN scan initiated Mon Apr  6 07:46:26 2026 as: nmap -p- -sV -T4 -oN external_scans/nmap_scan.txt 38.242.140.239
+Nmap scan report for vmi3057064.contaboserver.net (38.242.140.239)
+Host is up (0.096s latency).
+Not shown: 65524 filtered tcp ports (no-response)
+PORT     STATE SERVICE        VERSION
+22/tcp   open  ssh            OpenSSH 9.6p1 Ubuntu 3ubuntu13.15 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http           nginx
+443/tcp  open  ssl/http       nginx
+4533/tcp open  unknown
+5000/tcp open  upnp?
+8080/tcp open  http-proxy
+8085/tcp open  http           aiohttp 3.13.5 (Python 3.13)
+8181/tcp open  http           Node.js Express framework
+8191/tcp open  http           Pylons Waitress WSGI server
+8686/tcp open  sun-as-jmxrmi?
+9696/tcp open  unknown
+5 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port4533-TCP:V=7.94SVN%I=7%D=4/6%Time=69D3653A%P=x86_64-pc-linux-gnu%r(
+SF:rotctl,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/
+SF:plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Re
+SF:quest")%r(GenericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConten
+SF:t-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n
+SF:400\x20Bad\x20Request")%r(GetRequest,14B,"HTTP/1\.0\x20302\x20Found\r\n
+SF:Content-Type:\x20text/html;\x20charset=utf-8\r\nLocation:\x20/app/\r\nP
+SF:ermissions-Policy:\x20autoplay=\(\),\x20camera=\(\),\x20microphone=\(\)
+SF:,\x20usb=\(\)\r\nReferrer-Policy:\x20same-origin\r\nVary:\x20Origin\r\n
+SF:X-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nDate:
+SF:\x20Mon,\x2006\x20Apr\x202026\x2007:48:10\x20GMT\r\nContent-Length:\x20
+SF:28\r\n\r\n<a\x20href=\"/app/\">Found</a>\.\n\n")%r(HTTPOptions,67,"HTTP
+SF:/1\.0\x20405\x20Method\x20Not\x20Allowed\r\nAllow:\x20GET\r\nDate:\x20M
+SF:on,\x2006\x20Apr\x202026\x2007:48:10\x20GMT\r\nContent-Length:\x200\r\n
+SF:\r\n")%r(RTSPRequest,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-
+SF:Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n40
+SF:0\x20Bad\x20Request")%r(RPCCheck,67,"HTTP/1\.1\x20400\x20Bad\x20Request
+SF:\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20clo
+SF:se\r\n\r\n400\x20Bad\x20Request")%r(DNSVersionBindReqTCP,67,"HTTP/1\.1\
+SF:x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf
+SF:-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(DNSStatusRe
+SF:questTCP,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20tex
+SF:t/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20
+SF:Request")%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type
+SF::\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x2
+SF:0Bad\x20Request")%r(SSLSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x20Reques
+SF:t\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20cl
+SF:ose\r\n\r\n400\x20Bad\x20Request")%r(TerminalServerCookie,67,"HTTP/1\.1
+SF:\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=ut
+SF:f-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5000-TCP:V=7.94SVN%I=7%D=4/6%Time=69D36542%P=x86_64-pc-linux-gnu%r(
+SF:GetRequest,37C8,"HTTP/1\.1\x20200\x20OK\r\nContent-Length:\x2017283\r\n
+SF:Connection:\x20close\r\nContent-Type:\x20text/HTML\r\nDate:\x20Mon,\x20
+SF:06\x20Apr\x202026\x2007:48:17\x20GMT\r\nServer:\x20Kestrel\r\nLast-Modi
+SF:fied:\x20Sat,\x2004\x20Apr\x202026\x2016:01:31\x20GMT\r\nVary:\x20Accep
+SF:t-Encoding\r\nX-Frame-Options:\x20/\r\nContent-Security-Policy:\x20fram
+SF:e-ancestors\x20'none';\r\n\r\n\xef\xbb\xbf<!doctype\x20html>\n<html\x20
+SF:lang=\"en\"\x20role=\"main\"\x20data-critters-container=\"\">\n<head>\n
+SF:\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20<title>Kavita</title>\n\x2
+SF:0\x20<base\x20href=\"/test/\">\n\x20\x20<meta\x20name=\"viewport\"\x20c
+SF:ontent=\"width=device-width,\x20initial-scale=1\">\n\x20\x20<link\x20re
+SF:l=\"apple-touch-icon\"\x20sizes=\"180x180\"\x20href=\"assets/icons/appl
+SF:e-touch-icon\.png\">\n\x20\x20<link\x20rel=\"icon\"\x20type=\"image/png
+SF:\"\x20sizes=\"32x32\"\x20href=\"assets/icons/favicon-32x32\.png\">\n\x2
+SF:0\x20<link\x20rel=\"icon\"\x20type=\"image/png\"\x20sizes=\"16x16\"\x20
+SF:href=\"assets/icons/favicon-16x16\.png\">\n\x20\x20<link\x20rel=\"manif
+SF:est\"\x20href=\"site\.webmanifest\">\n\x20\x20<link\x20rel=\"shortcut\x
+SF:20icon\"\x20href=\"assets/icons/favicon\.ico\">\n\x20\x20<meta\x20name=
+SF:\"msappl")%r(RTSPRequest,87,"HTTP/1\.1\x20505\x20HTTP\x20Version\x20Not
+SF:\x20Supported\r\nContent-Length:\x200\r\nConnection:\x20close\r\nDate:\
+SF:x20Mon,\x2006\x20Apr\x202026\x2007:48:17\x20GMT\r\nServer:\x20Kestrel\r
+SF:\n\r\n")%r(HTTPOptions,10BC,"HTTP/1\.1\x20200\x20OK\r\nContent-Length:\
+SF:x2017283\r\nConnection:\x20close\r\nContent-Type:\x20text/HTML\r\nDate:
+SF:\x20Mon,\x2006\x20Apr\x202026\x2007:48:32\x20GMT\r\nServer:\x20Kestrel\
+SF:r\nLast-Modified:\x20Sat,\x2004\x20Apr\x202026\x2016:01:31\x20GMT\r\nVa
+SF:ry:\x20Accept-Encoding\r\nX-Frame-Options:\x20/\r\nContent-Security-Pol
+SF:icy:\x20frame-ancestors\x20'none';\r\n\r\n\xef\xbb\xbf<!doctype\x20html
+SF:>\n<html\x20lang=\"en\"\x20role=\"main\"\x20data-critters-container=\"\
+SF:">\n<head>\n\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20<title>Kavita<
+SF:/title>\n\x20\x20<base\x20href=\"/test/\">\n\x20\x20<meta\x20name=\"vie
+SF:wport\"\x20content=\"width=device-width,\x20initial-scale=1\">\n\x20\x2
+SF:0<link\x20rel=\"apple-touch-icon\"\x20sizes=\"180x180\"\x20href=\"asset
+SF:s/icons/apple-touch-icon\.png\">\n\x20\x20<link\x20rel=\"icon\"\x20type
+SF:=\"image/png\"\x20sizes=\"32x32\"\x20href=\"assets/icons/favicon-32x32\
+SF:.png\">\n\x20\x20<link\x20rel=\"icon\"\x20type=\"image/png\"\x20sizes=\
+SF:"16x16\"\x20href=\"assets/icons/favicon-16x16\.png\">\n\x20\x20<link\x2
+SF:0rel=\"manifest\"\x20href=\"site\.webmanifest\">\n\x20\x20<link\x20rel=
+SF:\"shortcut\x20icon\"\x20href=\"assets/icons/favicon\.ico\">\n\x20\x20<m
+SF:eta\x20name=\"msappl");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.94SVN%I=7%D=4/6%Time=69D36541%P=x86_64-pc-linux-gnu%r(
+SF:GetRequest,876,"HTTP/1\.1\x20200\x20OK\r\ncache-control:\x20no-store\r\
+SF:nconnection:\x20keep-alive\r\ncontent-length:\x201648\r\ncontent-securi
+SF:ty-policy:\x20default-src\x20'self';\x20style-src\x20'self'\x20'unsafe-
+SF:inline';\x20img-src\x20'self'\x20data:;\x20script-src\x20'self'\x20'uns
+SF:afe-inline';\x20object-src\x20'none';\x20form-action\x20'self';\x20fram
+SF:e-ancestors\x20'self';\r\ncontent-type:\x20text/html\r\ncross-origin-op
+SF:ener-policy:\x20same-origin\r\ndate:\x20Mon,\x2006\x20Apr\x202026\x2007
+SF::48:12\x20GMT\r\nreferrer-policy:\x20same-origin\r\nx-content-type-opti
+SF:ons:\x20nosniff\r\nx-frame-options:\x20SAMEORIGIN\r\nx-xss-protection:\
+SF:x201;\x20mode=block\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n\
+SF:n<head>\n\x20\x20\x20\x20<meta\x20charset=\"UTF-8\"\x20/>\n\x20\x20\x20
+SF:\x20<title>qBittorrent\x20Web\x20UI</title>\n\x20\x20\x20\x20<link\x20r
+SF:el=\"icon\"\x20type=\"image/png\"\x20href=\"images/qbittorrent32\.png\"
+SF:\x20/>\n\x20\x20\x20\x20<link\x20rel=\"icon\"\x20type=\"image/svg\+xml\
+SF:"\x20href=\"images/qbittorrent-tray\.svg\"\x20/>\n\x20\x20\x20\x20<link
+SF:\x20rel=\"stylesheet\"\x20type=\"text/css\"\x20href=\"css/login\.css\?v
+SF:=6fmrua\"\x20/>\n\x20\x20\x20\x20<noscript>\n\x20\x20\x20\x20\x20\x20\x
+SF:20\x20<link\x20rel=\"stylesheet\"")%r(HTTPOptions,6B,"HTTP/1\.1\x20501\
+SF:x20Not\x20Implemented\r\nconnection:\x20close\r\ncontent-length:\x200\r
+SF:\ndate:\x20Mon,\x2006\x20Apr\x202026\x2007:48:18\x20GMT\r\n\r\n")%r(RTS
+SF:PRequest,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nconnection:\x20close
+SF:\r\ncontent-length:\x200\r\ndate:\x20Mon,\x2006\x20Apr\x202026\x2007:48
+SF::18\x20GMT\r\n\r\n")%r(FourOhFourRequest,20A,"HTTP/1\.1\x20404\x20Not\x
+SF:20Found\r\nconnection:\x20keep-alive\r\ncontent-length:\x209\r\ncontent
+SF:-security-policy:\x20default-src\x20'self';\x20style-src\x20'self'\x20'
+SF:unsafe-inline';\x20img-src\x20'self'\x20data:;\x20script-src\x20'self'\
+SF:x20'unsafe-inline';\x20object-src\x20'none';\x20form-action\x20'self';\
+SF:x20frame-ancestors\x20'self';\r\ncontent-type:\x20text/plain;\x20charse
+SF:t=UTF-8\r\ncross-origin-opener-policy:\x20same-origin\r\ndate:\x20Mon,\
+SF:x2006\x20Apr\x202026\x2007:48:18\x20GMT\r\nreferrer-policy:\x20same-ori
+SF:gin\r\nx-content-type-options:\x20nosniff\r\nx-frame-options:\x20SAMEOR
+SF:IGIN\r\nx-xss-protection:\x201;\x20mode=block\r\n\r\nNot\x20Found");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8686-TCP:V=7.94SVN%I=7%D=4/6%Time=69D36547%P=x86_64-pc-linux-gnu%r(
+SF:GetRequest,99,"HTTP/1\.1\x20302\x20Found\r\nContent-Length:\x200\r\nCon
+SF:nection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr\x202026\x2007:48:22\x20
+SF:GMT\r\nServer:\x20Kestrel\r\nLocation:\x20http:///login\?returnUrl=%2F\
+SF:r\n\r\n")%r(HTTPOptions,79,"HTTP/1\.1\x20401\x20Unauthorized\r\nContent
+SF:-Length:\x200\r\nConnection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr\x20
+SF:2026\x2007:48:22\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(RTSPRequest,8
+SF:7,"HTTP/1\.1\x20505\x20HTTP\x20Version\x20Not\x20Supported\r\nContent-L
+SF:ength:\x200\r\nConnection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr\x2020
+SF:26\x2007:48:22\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(Help,78,"HTTP/1
+SF:\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20
+SF:close\r\nDate:\x20Mon,\x2006\x20Apr\x202026\x2007:48:38\x20GMT\r\nServe
+SF:r:\x20Kestrel\r\n\r\n")%r(SSLSessionReq,78,"HTTP/1\.1\x20400\x20Bad\x20
+SF:Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\nDate:\x20Mon
+SF:,\x2006\x20Apr\x202026\x2007:48:38\x20GMT\r\nServer:\x20Kestrel\r\n\r\n
+SF:")%r(TerminalServerCookie,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCon
+SF:tent-Length:\x200\r\nConnection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr
+SF:\x202026\x2007:48:38\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(TLSSessio
+SF:nReq,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\n
+SF:Connection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr\x202026\x2007:48:38\
+SF:x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(Kerberos,78,"HTTP/1\.1\x20400\
+SF:x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\nDa
+SF:te:\x20Mon,\x2006\x20Apr\x202026\x2007:48:38\x20GMT\r\nServer:\x20Kestr
+SF:el\r\n\r\n")%r(FourOhFourRequest,BA,"HTTP/1\.1\x20302\x20Found\r\nConte
+SF:nt-Length:\x200\r\nConnection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr\x
+SF:202026\x2007:48:49\x20GMT\r\nServer:\x20Kestrel\r\nLocation:\x20http://
+SF:/login\?returnUrl=%2Fnice%2520ports,%2FTrinity\.txt\.bak\r\n\r\n")%r(LP
+SF:DString,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\
+SF:r\nConnection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr\x202026\x2007:48:
+SF:49\x20GMT\r\nServer:\x20Kestrel\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port9696-TCP:V=7.94SVN%I=7%D=4/6%Time=69D36542%P=x86_64-pc-linux-gnu%r(
+SF:GetRequest,99,"HTTP/1\.1\x20302\x20Found\r\nContent-Length:\x200\r\nCon
+SF:nection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr\x202026\x2007:48:18\x20
+SF:GMT\r\nServer:\x20Kestrel\r\nLocation:\x20http:///login\?returnUrl=%2F\
+SF:r\n\r\n")%r(HTTPOptions,79,"HTTP/1\.1\x20401\x20Unauthorized\r\nContent
+SF:-Length:\x200\r\nConnection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr\x20
+SF:2026\x2007:48:18\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(RTSPRequest,8
+SF:7,"HTTP/1\.1\x20505\x20HTTP\x20Version\x20Not\x20Supported\r\nContent-L
+SF:ength:\x200\r\nConnection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr\x2020
+SF:26\x2007:48:18\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(Help,78,"HTTP/1
+SF:\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20
+SF:close\r\nDate:\x20Mon,\x2006\x20Apr\x202026\x2007:48:33\x20GMT\r\nServe
+SF:r:\x20Kestrel\r\n\r\n")%r(SSLSessionReq,78,"HTTP/1\.1\x20400\x20Bad\x20
+SF:Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\nDate:\x20Mon
+SF:,\x2006\x20Apr\x202026\x2007:48:34\x20GMT\r\nServer:\x20Kestrel\r\n\r\n
+SF:")%r(TerminalServerCookie,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCon
+SF:tent-Length:\x200\r\nConnection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr
+SF:\x202026\x2007:48:34\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(TLSSessio
+SF:nReq,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\n
+SF:Connection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr\x202026\x2007:48:34\
+SF:x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(Kerberos,78,"HTTP/1\.1\x20400\
+SF:x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\nDa
+SF:te:\x20Mon,\x2006\x20Apr\x202026\x2007:48:34\x20GMT\r\nServer:\x20Kestr
+SF:el\r\n\r\n")%r(FourOhFourRequest,BA,"HTTP/1\.1\x20302\x20Found\r\nConte
+SF:nt-Length:\x200\r\nConnection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr\x
+SF:202026\x2007:48:45\x20GMT\r\nServer:\x20Kestrel\r\nLocation:\x20http://
+SF:/login\?returnUrl=%2Fnice%2520ports,%2FTrinity\.txt\.bak\r\n\r\n")%r(LP
+SF:DString,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\
+SF:r\nConnection:\x20close\r\nDate:\x20Mon,\x2006\x20Apr\x202026\x2007:48:
+SF:45\x20GMT\r\nServer:\x20Kestrel\r\n\r\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Apr  6 07:50:30 2026 -- 1 IP address (1 host up) scanned in 243.65 seconds
